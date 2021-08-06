@@ -1,0 +1,126 @@
+*{
+ 
+    font-family: 'Varela Round', sans-serif;
+    background-color: darkgray;
+}
+.resume{
+    width: 80%;
+    margin: 50px auto;
+    animation-name: babasicAnimation;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
+.box-1{
+    width: 100%;
+    display: flex;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.267);
+}
+.head{
+    width: 70%;
+    text-transform: uppercase;
+    color: #000;
+    
+}
+.main-header
+{
+    float: left;
+    display: flex;
+    width: 100%;
+    background-color: goldenrod;
+}
+.header-cont{
+    color: black;
+    
+}
+.header-cont img
+{
+ width: 30%;
+ border-radius: 400px;
+ padding: 10px;
+ margin: 10px;
+
+}
+
+.section-cont{
+    
+    display: flex;
+    float: left;
+    margin: 8px;
+    width: 100%;
+}
+.main-section{
+    width: 35%;
+}
+.main-head{
+    width: 55%;
+    border-left: black solid;
+  
+}
+.main-head-cont h2{
+ background-color: black;
+ color: white;
+ border-bottom: black;
+}
+.box{
+    padding: 8px;
+    margin: 5px;
+}
+.br{
+    border: white solid;
+    height: 0.5;
+}
+.box-ic{
+   
+}
+.ic{
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.icon{
+    border-radius: 80px;
+    width: 20%;
+    justify-content: center;
+    padding: 5px;
+    background-color:  white;
+}
+.left{
+    width: 40%;
+}
+.profile-ic{
+
+   
+}
+.left .profile-ic{
+    background-color: white;
+    border-radius: 80px;
+    justify-content: left;
+}
+.line{
+    
+    border: white solid;
+    height: 0.5;
+    width: 80%;  
+
+}
+.right .profile-ic{
+    background-color: white;
+    border-radius: 80px;
+    justify-content: left;
+    width: 100%;
+}
+
+@keyframes basicAnimation{
+    0%{
+        opacity: 0;
+        width: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+    }
+}
